@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>Creando formularios</title>
+</head>
+
+<body>
+    <div class="padre">
+        <div class="todo">
+
+            <h1 class="palabra">Inscripción curso Programador Web</h1>
+
+            <div class="formulario">
+
+                <form action="">
+                    <label for="nombre" class="palabra1">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombreCompleto">
+                    <br>
+
+                    <label for="email" class="palabra1">E-mail</label>
+                    <input type="mail">
+                    <br>
+
+                    <label for="telefono" class="palabra1">Teléfono</label>
+                    <input type="number" name="Teléfono" id="">
+                    <br>
+                    <br>
+                    <label for="turno" class="palabra">
+            TURNO DE CURSADA
+        </label>
+
+                    <br>
+                    <label for="turno">Turno mañana 9 a 12 hs</label>
+                    <input type="radio" id="turnoM" name="turno" value="mañana">
+                    <br>
+                    <label for="turno">Turno tarde 14 a 17 hs</label>
+                    <input type="radio" id="turnoT" name="turno" value="tarde">
+                    <br>
+                    <label for="turno">Turno noche 19 a 22 hs</label>
+                    <input type="radio" id="turnoN" name="turno" value="noche">
+                    <br>
+                    <br>
+                    <label for="diplomatura" class="palabra">CURSO</label>
+                    <br>
+                    <label for="PWI">Programacion Web Inicial</label>
+                    <input type="checkbox" name="cursos" value="Prog.Web.Inicial">
+
+                    <label for="PWI">Programacion Web Avanzado</label>
+                    <input type="checkbox" id="PWI" name="cursos" value="Prog.Web.Avanzado">
+                    <br>
+                    <label for="nivel">Nivel de conocimiento</label>
+
+                    <select name="nivel" id="nivel">
+                    <option value="nulo">Nulo</option>
+                    <option value="basico">Básico</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="avanzado">Avanzado</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="submint" value="Enviar" class="boton">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
